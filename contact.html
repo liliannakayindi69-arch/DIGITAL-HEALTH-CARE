@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Website Name</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Get In Touch</h1>
+        <nav>
+            <a href="home.html">Home</a> | 
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <section id="our-locations">
+                    <h2>Where You Can Find Us</h2>
+                    <p>Visit us at one of our main offices or contact our regional representatives.</p>
+                    
+                    <div class="location-item">
+                        <h3>Headquarters (NAKAWA)</h3>
+                        <p>kembo plaza, street 5<br>KAMPALA, nakawa, kampala345</p>
+                        <p>Hours: Mon-Fri, 9:00 AM - 5:00 PM</p>
+                    </div>
+                    
+                    <div class="location-item">
+                        <h3>Regional Branch KAMPALA</h3>
+                        <p>NAKAWA <br>Tech Hub, 555</p>
+                        <p>Hours: Mon-Thu, 10:00 AM - 4:00 PM</p>
+                    </div>
+                </section>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="contact-details">
+            <h2>Direct Contact Information</h2>
+            <p><strong>Email:digital@nak25.com</strong> <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+            <p><strong>Phone: 0757660877</strong> (555) 123-4567</p>
+            <p><strong>Address:Nakawa</strong> KAMPALA, nakawa, kampala345 [attachment_0](attachment) </p>
+            <p><strong>Hours:7hrs</strong> Mon - Fri, 9:00 AM - 5:00 PM</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Dgotal health. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
